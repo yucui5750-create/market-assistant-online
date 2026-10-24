@@ -24,10 +24,16 @@ def export(refresh_data=True):
             return old
         raise ValueError('无可用行情，不发布虚构报告。')
     reports = []
+    keys = ('id','title','as_of','type','summary','market','outlooks','sources','limitations')
+    # Cloud runners start fresh; retain earlier public reports from the committed snapshot.
+    for r in read(PUBLIC, {}).get('reports', []):
+        if isinstance(r, dict) and r.get('id'):
+            reports.append({k:r[k] for k in keys if k in r})
     # Never read portfolio.json or personalized research reports.
     for path in sorted((DATA/'reports').glob('baseline-*.json'), reverse=True)[:30]:
         r = read(path)
-        reports.append({k:r[k] for k in ('id','title','as_of','type','summary','market','outlooks','sources','limitations') if k in r})
+        reports.append({k:r[k] for k in keys if k in r})
+    reports = sorted({r['id']:r for r in reports}.values(), key=lambda r:r.get('as_of',''), reverse=True)[:30]
     items = read(DATA/'forecasts.json', [])
     published = now().isoformat()
     result = {'schema_version':1, 'published_at':published, 'server_time':published,
