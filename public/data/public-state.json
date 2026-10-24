@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "published_at": "2026-10-24T11:12:58.180890+08:00",
-  "server_time": "2026-10-24T11:12:58.180890+08:00",
+  "published_at": "2026-10-24T11:21:18.753485+08:00",
+  "server_time": "2026-10-24T11:21:18.753485+08:00",
   "reports": [
     {
-      "id": "baseline-20261024-111257-100502",
+      "id": "baseline-20261024-112114-131980",
       "title": "行情与行业观察 · 自动数据版",
-      "as_of": "2026-10-24T11:12:57.100502+08:00",
+      "as_of": "2026-10-24T11:21:14.131980+08:00",
       "type": "数据更新",
       "summary": "已更新公开指数与ETF行情。下方是可复核的趋势基线；完整投研还需核验新闻、业绩与估值；本页不假装已完成这些核验。",
       "market": [
@@ -383,16 +383,11 @@
         {
           "title": "腾讯财经公开行情（第三方，需复核）",
           "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006,sh000300,sh512480,sh515880,sh512010,sh516160,sz159928,sh512800,sh510880,sz159941,sh510300",
-          "as_of": "2026-10-24T11:12:57.100502+08:00"
+          "as_of": "2026-10-24T11:21:14.131980+08:00"
         },
         {
           "title": "通信（含光通信，非纯CPO） 历史价格",
           "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq",
-          "as_of": "2026-10-23"
-        },
-        {
-          "title": "半导体 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq",
           "as_of": "2026-10-23"
         },
         {
@@ -401,8 +396,8 @@
           "as_of": "2026-10-23"
         },
         {
-          "title": "消费 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq",
+          "title": "半导体 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq",
           "as_of": "2026-10-23"
         },
         {
@@ -413,6 +408,11 @@
         {
           "title": "银行 历史价格",
           "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq",
+          "as_of": "2026-10-23"
+        },
+        {
+          "title": "消费 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq",
           "as_of": "2026-10-23"
         },
         {
