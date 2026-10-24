@@ -1,0 +1,27 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const path=require('node:path');
+const root=path.resolve(__dirname,'..');
+let requests=[];
+const db=new Map();
+const context=vm.createContext({URL,Response,Date,Intl,Blob,setTimeout,location:{href:'https://example.github.io/market-assistant-online/'},localStorage:{getItem:k=>db.get(k)||null,setItem:(k,v)=>db.set(k,v)},fetch:async(url,options)=>{requests.push({url,options});return new Response(JSON.stringify({reports:[],stats:{}}));}});
+vm.runInContext(fs.readFileSync(path.join(root,'public/online-data.js'),'utf8'),context);
+const api=vm.runInContext('MarketAPI',context);
+const p={as_of:'2020-01-01',snapshot:{total_assets_estimate:123.45,day_profit:null},fund_allocation:[],sector_allocation:[],asset_allocation:[]};
+(async()=>{
+  api.save(p);assert.equal(requests.length,0,'Saving must never make a network request');
+  const saved=JSON.parse(db.get('market-assistant:portfolio:v1'));assert.equal(saved.snapshot.total_assets_estimate,123.45);
+  assert.throws(()=>api.save({...p,snapshot:{total_assets_estimate:-1}}));
+  assert.equal(JSON.parse(db.get('market-assistant:portfolio:v1')).snapshot.total_assets_estimate,123.45);
+  assert.throws(()=>api.validate({...p,as_of:'2020-02-30'}));
+  assert.throws(()=>api.validate({...p,as_of:'2099-01-01'}));
+  assert.throws(()=>api.validate({...p,snapshot:{day_profit:'123'}}));
+  let response=await api.request('/api/state');let state=await response.json();assert.equal(state.portfolio.snapshot.total_assets_estimate,123.45);
+  assert.equal(requests.length,1);assert.equal(new URL(requests[0].url).pathname,'/market-assistant-online/data/public-state.json');
+  assert.equal(requests[0].options.body,undefined,'Public GET must contain no personal body');
+  response=await api.request('/api/portfolio',{body:JSON.stringify(p)});assert.equal(response.ok,true);assert.equal(requests.length,1);
+  db.set('market-assistant:portfolio:v1','bad-json');response=await api.request('/api/state');state=await response.json();assert.ok(state.local_warning);assert.equal(db.get('market-assistant:portfolio:v1'),'bad-json');
+  const html=fs.readFileSync(path.join(root,'public/index.html'),'utf8');assert.ok(!html.includes("fetch('/api/"));assert.ok(html.includes('online-data.js'));
+  console.log('PASS: browser storage privacy, validation, subpath hosting, corrupt-data recovery, no localhost API');
+})().catch(error=>{console.error(error);process.exitCode=1;});
