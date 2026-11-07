@@ -4048,5 +4048,23 @@
     "benchmark": "sh510300",
     "method": "momentum-v2",
     "evaluation": null
+  },
+  {
+    "id": "2026-11-06-sh516160-30",
+    "report_id": "baseline-20261107-185756-236366",
+    "registered_at": "2026-11-07T18:57:56.236366+08:00",
+    "base_date": "2026-11-06",
+    "horizon_days": 30,
+    "eligible_from": "2026-11-08",
+    "start_date": null,
+    "due_date": null,
+    "code": "sh516160",
+    "sector": "新能源",
+    "horizon": "未来1个月（30天）",
+    "direction": "underperform",
+    "stance": "相对偏弱，谨慎",
+    "benchmark": "sh510300",
+    "method": "momentum-v2",
+    "evaluation": null
   }
 ]
