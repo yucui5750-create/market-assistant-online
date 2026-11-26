@@ -1,8 +1,445 @@
 {
   "schema_version": 1,
-  "published_at": "2026-11-25T22:05:58.315322+08:00",
-  "server_time": "2026-11-25T22:05:58.315322+08:00",
+  "published_at": "2026-11-26T21:42:59.660062+08:00",
+  "server_time": "2026-11-26T21:42:59.660062+08:00",
   "reports": [
+    {
+      "id": "baseline-20261126-214255-414850",
+      "title": "行情与行业观察 · 自动数据版",
+      "as_of": "2026-11-26T21:42:55.414850+08:00",
+      "type": "数据更新",
+      "summary": "已更新公开指数与ETF行情。下方是可复核的趋势基线；完整投研还需核验新闻、业绩与估值；本页不假装已完成这些核验。",
+      "market": [
+        {
+          "code": "sh000001",
+          "name": "上证指数",
+          "value": 3476.88,
+          "change_pct": 0.01,
+          "as_of": "2026-11-26T16:14:27+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sh000001",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sz399001",
+          "name": "深证成指",
+          "value": 10084.04,
+          "change_pct": -0.02,
+          "as_of": "2026-11-26T16:14:15+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sz399001",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sz399006",
+          "name": "创业板指",
+          "value": 2189.82,
+          "change_pct": 0.29,
+          "as_of": "2026-11-26T16:14:30+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sz399006",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sh000300",
+          "name": "沪深300",
+          "value": 3900.55,
+          "change_pct": 0.06,
+          "as_of": "2026-11-26T16:14:09+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sh000300",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sh512480",
+          "name": "半导体ETF国联安",
+          "value": 0.696,
+          "change_pct": -1.69,
+          "as_of": "2026-11-26T16:14:57+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sh512480",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sh515880",
+          "name": "通信ETF国泰",
+          "value": 0.383,
+          "change_pct": 2.68,
+          "as_of": "2026-11-26T16:14:37+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sh515880",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sh512010",
+          "name": "医药ETF易方达",
+          "value": 0.375,
+          "change_pct": 0.0,
+          "as_of": "2026-11-26T16:14:49+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sh512010",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sh516160",
+          "name": "新能源ETF南方",
+          "value": 1.751,
+          "change_pct": -1.19,
+          "as_of": "2026-11-26T16:14:50+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sh516160",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sz159928",
+          "name": "消费ETF汇添富",
+          "value": 0.693,
+          "change_pct": -1.42,
+          "as_of": "2026-11-26T16:14:42+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sz159928",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sh512800",
+          "name": "银行ETF华宝",
+          "value": 0.927,
+          "change_pct": 0.65,
+          "as_of": "2026-11-26T16:14:52+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sh512800",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sh510880",
+          "name": "红利ETF华泰柏瑞",
+          "value": 3.407,
+          "change_pct": 1.19,
+          "as_of": "2026-11-26T16:14:41+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sh510880",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sz159941",
+          "name": "纳指ETF广发",
+          "value": 1.521,
+          "change_pct": 1.67,
+          "as_of": "2026-11-26T16:14:15+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sz159941",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        },
+        {
+          "code": "sh510300",
+          "name": "沪深300ETF华泰柏瑞",
+          "value": 3.959,
+          "change_pct": -0.28,
+          "as_of": "2026-11-26T16:14:36+08:00",
+          "source_url": "https://qt.gtimg.cn/q=sh510300",
+          "source": "腾讯财经公开行情",
+          "historical": false,
+          "stale": false,
+          "status": "通过时点检查（非交易所直连）"
+        }
+      ],
+      "outlooks": [
+        {
+          "horizon": "未来7天",
+          "sector": "半导体",
+          "stance": "相对偏弱，谨慎",
+          "rationale": "截至2026-11-26，代理ETF过去5个完整交易日涨跌-10.14%，相对沪深300ETF为-7.68个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh512480",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来7天",
+          "sector": "通信（含光通信，非纯CPO）",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去5个完整交易日涨跌+0.00%，相对沪深300ETF为+2.46个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh515880",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来7天",
+          "sector": "医药",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去5个完整交易日涨跌+0.26%，相对沪深300ETF为+2.73个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh512010",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来7天",
+          "sector": "新能源",
+          "stance": "相对偏弱，谨慎",
+          "rationale": "截至2026-11-26，代理ETF过去5个完整交易日涨跌-7.01%，相对沪深300ETF为-4.55个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh516160",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来7天",
+          "sector": "消费",
+          "stance": "暂不判断",
+          "rationale": "截至2026-11-26，代理ETF过去5个完整交易日涨跌-2.26%，相对沪深300ETF为+0.21个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sz159928",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来7天",
+          "sector": "银行",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去5个完整交易日涨跌+1.31%，相对沪深300ETF为+3.77个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh512800",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来7天",
+          "sector": "红利（策略，不是行业）",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去5个完整交易日涨跌-0.18%，相对沪深300ETF为+2.29个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh510880",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来1个月（30天）",
+          "sector": "半导体",
+          "stance": "相对偏弱，谨慎",
+          "rationale": "截至2026-11-26，代理ETF过去20个完整交易日涨跌-7.53%，相对沪深300ETF为-3.86个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh512480",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来1个月（30天）",
+          "sector": "通信（含光通信，非纯CPO）",
+          "stance": "相对偏弱，谨慎",
+          "rationale": "截至2026-11-26，代理ETF过去20个完整交易日涨跌-17.93%，相对沪深300ETF为-14.25个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh515880",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来1个月（30天）",
+          "sector": "医药",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去20个完整交易日涨跌+1.33%，相对沪深300ETF为+5.01个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh512010",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来1个月（30天）",
+          "sector": "新能源",
+          "stance": "相对偏弱，谨慎",
+          "rationale": "截至2026-11-26，代理ETF过去20个完整交易日涨跌-9.70%，相对沪深300ETF为-6.03个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh516160",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来1个月（30天）",
+          "sector": "消费",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去20个完整交易日涨跌+5.00%，相对沪深300ETF为+8.67个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sz159928",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来1个月（30天）",
+          "sector": "银行",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去20个完整交易日涨跌+4.51%，相对沪深300ETF为+8.18个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh512800",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来1个月（30天）",
+          "sector": "红利（策略，不是行业）",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去20个完整交易日涨跌-0.29%，相对沪深300ETF为+3.38个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh510880",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来2个月（60天）",
+          "sector": "半导体",
+          "stance": "相对偏弱，谨慎",
+          "rationale": "截至2026-11-26，代理ETF过去40个完整交易日涨跌-33.40%，相对沪深300ETF为-19.67个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh512480",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来2个月（60天）",
+          "sector": "通信（含光通信，非纯CPO）",
+          "stance": "相对偏弱，谨慎",
+          "rationale": "截至2026-11-26，代理ETF过去40个完整交易日涨跌-45.79%，相对沪深300ETF为-32.07个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh515880",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来2个月（60天）",
+          "sector": "医药",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去40个完整交易日涨跌-1.04%，相对沪深300ETF为+12.68个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh512010",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来2个月（60天）",
+          "sector": "新能源",
+          "stance": "相对偏弱，谨慎",
+          "rationale": "截至2026-11-26，代理ETF过去40个完整交易日涨跌-24.41%，相对沪深300ETF为-10.68个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh516160",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来2个月（60天）",
+          "sector": "消费",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去40个完整交易日涨跌+5.64%，相对沪深300ETF为+19.37个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sz159928",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来2个月（60天）",
+          "sector": "银行",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去40个完整交易日涨跌+11.28%，相对沪深300ETF为+25.01个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh512800",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq"
+        },
+        {
+          "horizon": "未来2个月（60天）",
+          "sector": "红利（策略，不是行业）",
+          "stance": "相对偏强，观察",
+          "rationale": "截至2026-11-26，代理ETF过去40个完整交易日涨跌+1.79%，相对沪深300ETF为+15.52个百分点。仅作趋势延续研究假设。",
+          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
+          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
+          "code": "sh510880",
+          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq"
+        }
+      ],
+      "sources": [
+        {
+          "title": "腾讯财经公开行情（第三方，需复核）",
+          "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006,sh000300,sh512480,sh515880,sh512010,sh516160,sz159928,sh512800,sh510880,sz159941,sh510300",
+          "as_of": "2026-11-26T21:42:55.414850+08:00"
+        },
+        {
+          "title": "半导体 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq",
+          "as_of": "2026-11-26"
+        },
+        {
+          "title": "医药 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq",
+          "as_of": "2026-11-26"
+        },
+        {
+          "title": "通信（含光通信，非纯CPO） 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq",
+          "as_of": "2026-11-26"
+        },
+        {
+          "title": "消费 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq",
+          "as_of": "2026-11-26"
+        },
+        {
+          "title": "银行 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq",
+          "as_of": "2026-11-26"
+        },
+        {
+          "title": "新能源 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq",
+          "as_of": "2026-11-26"
+        },
+        {
+          "title": "纳指QDII（场内价格，非纳指本身） 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159941,day,,,180,qfq",
+          "as_of": "2026-11-26"
+        },
+        {
+          "title": "sh510300 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510300,day,,,180,qfq",
+          "as_of": "2026-11-26"
+        },
+        {
+          "title": "红利（策略，不是行业） 历史价格",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq",
+          "as_of": "2026-11-26"
+        }
+      ],
+      "limitations": [
+        "本报告由公开行情和透明趋势规则生成，不是完整投研或买卖指令，不承诺90%准确率。",
+        "未来7/30/60天是自然日预测窗口；过去5/20/40交易日仅为观察窗口，二者不可混淆。",
+        "相对偏强可能仍然下跌；相对偏弱也可能上涨。样本仅含列出的代理ETF，不是全市场行业排名。",
+        "通信ETF不是纯CPO；红利是投资策略；QDII场内价格含汇率/溢价影响，未纳入A股行业强弱评分。",
+        "本报告仅讨论公开代理ETF，不读取任何用户的实际持仓或盈亏。",
+        "行情保留来源原始时间；非当前日数据是最近交易日记录，不能称为今日实时。"
+      ]
+    },
     {
       "id": "baseline-20261125-220555-207784",
       "title": "行情与行业观察 · 自动数据版",
@@ -12675,443 +13112,6 @@
         "本报告仅讨论公开代理ETF，不读取任何用户的实际持仓或盈亏。",
         "行情保留来源原始时间；非当前日数据是最近交易日记录，不能称为今日实时。"
       ]
-    },
-    {
-      "id": "baseline-20261027-174322-729459",
-      "title": "行情与行业观察 · 自动数据版",
-      "as_of": "2026-10-27T17:43:22.729459+08:00",
-      "type": "数据更新",
-      "summary": "已更新公开指数与ETF行情。下方是可复核的趋势基线；完整投研还需核验新闻、业绩与估值；本页不假装已完成这些核验。",
-      "market": [
-        {
-          "code": "sh000001",
-          "name": "上证指数",
-          "value": 3648.3,
-          "change_pct": -1.33,
-          "as_of": "2026-10-27T16:14:00+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sh000001",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sz399001",
-          "name": "深证成指",
-          "value": 11245.73,
-          "change_pct": -2.5,
-          "as_of": "2026-10-27T16:14:45+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sz399001",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sz399006",
-          "name": "创业板指",
-          "value": 2548.15,
-          "change_pct": -3.41,
-          "as_of": "2026-10-27T16:14:00+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sz399006",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sh000300",
-          "name": "沪深300",
-          "value": 4049.55,
-          "change_pct": -1.32,
-          "as_of": "2026-10-27T16:14:12+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sh000300",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sh512480",
-          "name": "半导体ETF国联安",
-          "value": 0.765,
-          "change_pct": -4.49,
-          "as_of": "2026-10-27T16:15:00+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sh512480",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sh515880",
-          "name": "通信ETF国泰",
-          "value": 0.477,
-          "change_pct": -3.64,
-          "as_of": "2026-10-27T16:15:00+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sh515880",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sh512010",
-          "name": "医药ETF易方达",
-          "value": 0.371,
-          "change_pct": -2.88,
-          "as_of": "2026-10-27T16:14:46+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sh512010",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sh516160",
-          "name": "新能源ETF南方",
-          "value": 1.957,
-          "change_pct": -2.35,
-          "as_of": "2026-10-27T16:14:48+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sh516160",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sz159928",
-          "name": "消费ETF汇添富",
-          "value": 0.665,
-          "change_pct": -0.75,
-          "as_of": "2026-10-27T16:14:27+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sz159928",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sh512800",
-          "name": "银行ETF华宝",
-          "value": 0.876,
-          "change_pct": 1.39,
-          "as_of": "2026-10-27T16:14:49+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sh512800",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sh510880",
-          "name": "红利ETF华泰柏瑞",
-          "value": 3.397,
-          "change_pct": 1.19,
-          "as_of": "2026-10-27T16:14:52+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sh510880",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sz159941",
-          "name": "纳指ETF广发",
-          "value": 1.661,
-          "change_pct": 0.0,
-          "as_of": "2026-10-27T16:14:30+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sz159941",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        },
-        {
-          "code": "sh510300",
-          "name": "沪深300ETF华泰柏瑞",
-          "value": 4.123,
-          "change_pct": -1.34,
-          "as_of": "2026-10-27T16:14:35+08:00",
-          "source_url": "https://qt.gtimg.cn/q=sh510300",
-          "source": "腾讯财经公开行情",
-          "historical": false,
-          "stale": false,
-          "status": "通过时点检查（非交易所直连）"
-        }
-      ],
-      "outlooks": [
-        {
-          "horizon": "未来7天",
-          "sector": "半导体",
-          "stance": "相对偏弱，谨慎",
-          "rationale": "截至2026-10-27，代理ETF过去5个完整交易日涨跌-7.12%，相对沪深300ETF为-4.75个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh512480",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来7天",
-          "sector": "通信（含光通信，非纯CPO）",
-          "stance": "相对偏弱，谨慎",
-          "rationale": "截至2026-10-27，代理ETF过去5个完整交易日涨跌-9.26%，相对沪深300ETF为-6.89个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh515880",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来7天",
-          "sector": "医药",
-          "stance": "暂不判断",
-          "rationale": "截至2026-10-27，代理ETF过去5个完整交易日涨跌-1.86%，相对沪深300ETF为+0.51个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh512010",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来7天",
-          "sector": "新能源",
-          "stance": "相对偏弱，谨慎",
-          "rationale": "截至2026-10-27，代理ETF过去5个完整交易日涨跌-4.12%，相对沪深300ETF为-1.75个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh516160",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来7天",
-          "sector": "消费",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去5个完整交易日涨跌+0.90%，相对沪深300ETF为+3.27个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sz159928",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来7天",
-          "sector": "银行",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去5个完整交易日涨跌+1.62%，相对沪深300ETF为+3.99个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh512800",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来7天",
-          "sector": "红利（策略，不是行业）",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去5个完整交易日涨跌-0.47%，相对沪深300ETF为+1.90个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh510880",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来1个月（30天）",
-          "sector": "半导体",
-          "stance": "相对偏弱，谨慎",
-          "rationale": "截至2026-10-27，代理ETF过去20个完整交易日涨跌-26.25%，相对沪深300ETF为-15.65个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh512480",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来1个月（30天）",
-          "sector": "通信（含光通信，非纯CPO）",
-          "stance": "相对偏弱，谨慎",
-          "rationale": "截至2026-10-27，代理ETF过去20个完整交易日涨跌-32.58%，相对沪深300ETF为-21.99个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh515880",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来1个月（30天）",
-          "sector": "医药",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去20个完整交易日涨跌-4.15%，相对沪深300ETF为+6.45个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh512010",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来1个月（30天）",
-          "sector": "新能源",
-          "stance": "相对偏弱，谨慎",
-          "rationale": "截至2026-10-27，代理ETF过去20个完整交易日涨跌-16.19%，相对沪深300ETF为-5.60个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh516160",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来1个月（30天）",
-          "sector": "消费",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去20个完整交易日涨跌+1.82%，相对沪深300ETF为+12.41个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sz159928",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来1个月（30天）",
-          "sector": "银行",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去20个完整交易日涨跌+4.89%，相对沪深300ETF为+15.48个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh512800",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来1个月（30天）",
-          "sector": "红利（策略，不是行业）",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去20个完整交易日涨跌+0.44%，相对沪深300ETF为+11.03个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh510880",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来2个月（60天）",
-          "sector": "半导体",
-          "stance": "相对偏弱，谨慎",
-          "rationale": "截至2026-10-27，代理ETF过去40个完整交易日涨跌-23.76%，相对沪深300ETF为-12.80个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh512480",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来2个月（60天）",
-          "sector": "通信（含光通信，非纯CPO）",
-          "stance": "相对偏弱，谨慎",
-          "rationale": "截至2026-10-27，代理ETF过去40个完整交易日涨跌-25.93%，相对沪深300ETF为-14.97个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh515880",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来2个月（60天）",
-          "sector": "医药",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去40个完整交易日涨跌-1.60%，相对沪深300ETF为+9.36个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh512010",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来2个月（60天）",
-          "sector": "新能源",
-          "stance": "相对偏弱，谨慎",
-          "rationale": "截至2026-10-27，代理ETF过去40个完整交易日涨跌-21.91%，相对沪深300ETF为-10.95个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh516160",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来2个月（60天）",
-          "sector": "消费",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去40个完整交易日涨跌+1.52%，相对沪深300ETF为+12.47个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sz159928",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来2个月（60天）",
-          "sector": "银行",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去40个完整交易日涨跌+6.41%，相对沪深300ETF为+17.37个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh512800",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq"
-        },
-        {
-          "horizon": "未来2个月（60天）",
-          "sector": "红利（策略，不是行业）",
-          "stance": "相对偏强，观察",
-          "rationale": "截至2026-10-27，代理ETF过去40个完整交易日涨跌-1.16%，相对沪深300ETF为+9.79个百分点。仅作趋势延续研究假设。",
-          "invalidation": "相对强弱逆转、公司业绩或政策出现反向证据时，本判断失效；今日涨幅不等于未来回报。",
-          "confidence": "低：仅价格趋势，尚未加入基本面与估值核验；未验证预测能力",
-          "code": "sh510880",
-          "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq"
-        }
-      ],
-      "sources": [
-        {
-          "title": "腾讯财经公开行情（第三方，需复核）",
-          "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006,sh000300,sh512480,sh515880,sh512010,sh516160,sz159928,sh512800,sh510880,sz159941,sh510300",
-          "as_of": "2026-10-27T17:43:22.729459+08:00"
-        },
-        {
-          "title": "半导体 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq",
-          "as_of": "2026-10-27"
-        },
-        {
-          "title": "通信（含光通信，非纯CPO） 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq",
-          "as_of": "2026-10-27"
-        },
-        {
-          "title": "医药 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq",
-          "as_of": "2026-10-27"
-        },
-        {
-          "title": "新能源 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq",
-          "as_of": "2026-10-27"
-        },
-        {
-          "title": "消费 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq",
-          "as_of": "2026-10-27"
-        },
-        {
-          "title": "银行 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq",
-          "as_of": "2026-10-27"
-        },
-        {
-          "title": "sh510300 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510300,day,,,180,qfq",
-          "as_of": "2026-10-27"
-        },
-        {
-          "title": "纳指QDII（场内价格，非纳指本身） 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159941,day,,,180,qfq",
-          "as_of": "2026-10-27"
-        },
-        {
-          "title": "红利（策略，不是行业） 历史价格",
-          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq",
-          "as_of": "2026-10-27"
-        }
-      ],
-      "limitations": [
-        "本报告由公开行情和透明趋势规则生成，不是完整投研或买卖指令，不承诺90%准确率。",
-        "未来7/30/60天是自然日预测窗口；过去5/20/40交易日仅为观察窗口，二者不可混淆。",
-        "相对偏强可能仍然下跌；相对偏弱也可能上涨。样本仅含列出的代理ETF，不是全市场行业排名。",
-        "通信ETF不是纯CPO；红利是投资策略；QDII场内价格含汇率/溢价影响，未纳入A股行业强弱评分。",
-        "本报告仅讨论公开代理ETF，不读取任何用户的实际持仓或盈亏。",
-        "行情保留来源原始时间；非当前日数据是最近交易日记录，不能称为今日实时。"
-      ]
     }
   ],
   "forecasts": [
@@ -13716,7 +13716,16 @@
       "stance": "相对偏弱，谨慎",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": -8.4967,
+        "benchmark_return_pct": -3.9534,
+        "excess_pct": -4.5433,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-10-26-sh515880-30",
@@ -13734,7 +13743,16 @@
       "stance": "相对偏弱，谨慎",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": -20.3354,
+        "benchmark_return_pct": -3.9534,
+        "excess_pct": -16.382,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-10-26-sh512010-30",
@@ -13752,7 +13770,16 @@
       "stance": "相对偏强，观察",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": 2.4259,
+        "benchmark_return_pct": -3.9534,
+        "excess_pct": 6.3793,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-10-26-sh516160-30",
@@ -13770,7 +13797,16 @@
       "stance": "相对偏弱，谨慎",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": -10.5774,
+        "benchmark_return_pct": -3.9534,
+        "excess_pct": -6.624,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-10-26-sz159928-30",
@@ -13788,7 +13824,16 @@
       "stance": "相对偏强，观察",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": 4.2105,
+        "benchmark_return_pct": -3.9534,
+        "excess_pct": 8.164,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-10-26-sh512800-30",
@@ -13806,7 +13851,16 @@
       "stance": "相对偏强，观察",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": 5.8219,
+        "benchmark_return_pct": -3.9534,
+        "excess_pct": 9.7753,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-10-26-sh510880-30",
@@ -13824,7 +13878,16 @@
       "stance": "相对偏强，观察",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": 0.3827,
+        "benchmark_return_pct": -3.9534,
+        "excess_pct": 4.3361,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-10-26-sh512480-60",
@@ -20313,7 +20376,16 @@
       "stance": "相对偏弱，谨慎",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": -10.1412,
+        "benchmark_return_pct": -2.4631,
+        "excess_pct": -7.6782,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512480,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-11-18-sh515880-7",
@@ -20331,7 +20403,16 @@
       "stance": "相对偏弱，谨慎",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": 0.0,
+        "benchmark_return_pct": -2.4631,
+        "excess_pct": 2.4631,
+        "hit": false,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-11-18-sh512010-7",
@@ -20349,7 +20430,16 @@
       "stance": "相对偏强，观察",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": 0.2639,
+        "benchmark_return_pct": -2.4631,
+        "excess_pct": 2.7269,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512010,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-11-18-sh516160-7",
@@ -20367,7 +20457,16 @@
       "stance": "相对偏弱，谨慎",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": -7.0138,
+        "benchmark_return_pct": -2.4631,
+        "excess_pct": -4.5508,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh516160,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-11-18-sz159928-7",
@@ -20385,7 +20484,16 @@
       "stance": "相对偏强，观察",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": -2.2567,
+        "benchmark_return_pct": -2.4631,
+        "excess_pct": 0.2064,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159928,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-11-18-sh512800-7",
@@ -20403,7 +20511,16 @@
       "stance": "相对偏强，观察",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": 1.3115,
+        "benchmark_return_pct": -2.4631,
+        "excess_pct": 3.7745,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh512800,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-11-18-sh510880-7",
@@ -20421,7 +20538,16 @@
       "stance": "相对偏强，观察",
       "benchmark": "sh510300",
       "method": "momentum-v2",
-      "evaluation": null
+      "evaluation": {
+        "date": "2026-11-26",
+        "return_pct": -0.1756,
+        "benchmark_return_pct": -2.4631,
+        "excess_pct": 2.2874,
+        "hit": true,
+        "evaluated_at": "2026-11-26T21:42:55.414850+08:00",
+        "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510880,day,,,180,qfq",
+        "method": "登记后首个完整基准交易日收盘作为起点；到期日（非交易日按基准顺延）收盘。标的缺当天则不评分。分子分母用同次前复权序列；未扣费用。"
+      }
     },
     {
       "id": "2026-11-18-sh512480-30",
@@ -22014,8 +22140,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 7,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-03",
       "code": "sh512480",
       "sector": "半导体",
       "horizon": "未来7天",
@@ -22032,8 +22158,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 7,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-03",
       "code": "sh512010",
       "sector": "医药",
       "horizon": "未来7天",
@@ -22050,8 +22176,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 7,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-03",
       "code": "sh516160",
       "sector": "新能源",
       "horizon": "未来7天",
@@ -22068,8 +22194,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 7,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-03",
       "code": "sz159928",
       "sector": "消费",
       "horizon": "未来7天",
@@ -22086,8 +22212,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 7,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-03",
       "code": "sh512800",
       "sector": "银行",
       "horizon": "未来7天",
@@ -22104,8 +22230,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 30,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-26",
       "code": "sh512480",
       "sector": "半导体",
       "horizon": "未来1个月（30天）",
@@ -22122,8 +22248,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 30,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-26",
       "code": "sh515880",
       "sector": "通信（含光通信，非纯CPO）",
       "horizon": "未来1个月（30天）",
@@ -22140,8 +22266,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 30,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-26",
       "code": "sh512010",
       "sector": "医药",
       "horizon": "未来1个月（30天）",
@@ -22158,8 +22284,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 30,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-26",
       "code": "sh516160",
       "sector": "新能源",
       "horizon": "未来1个月（30天）",
@@ -22176,8 +22302,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 30,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-26",
       "code": "sz159928",
       "sector": "消费",
       "horizon": "未来1个月（30天）",
@@ -22194,8 +22320,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 30,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-26",
       "code": "sh512800",
       "sector": "银行",
       "horizon": "未来1个月（30天）",
@@ -22212,8 +22338,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 30,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2026-12-26",
       "code": "sh510880",
       "sector": "红利（策略，不是行业）",
       "horizon": "未来1个月（30天）",
@@ -22230,8 +22356,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 60,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2027-01-25",
       "code": "sh512480",
       "sector": "半导体",
       "horizon": "未来2个月（60天）",
@@ -22248,8 +22374,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 60,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2027-01-25",
       "code": "sh515880",
       "sector": "通信（含光通信，非纯CPO）",
       "horizon": "未来2个月（60天）",
@@ -22266,8 +22392,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 60,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2027-01-25",
       "code": "sh512010",
       "sector": "医药",
       "horizon": "未来2个月（60天）",
@@ -22284,8 +22410,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 60,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2027-01-25",
       "code": "sh516160",
       "sector": "新能源",
       "horizon": "未来2个月（60天）",
@@ -22302,8 +22428,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 60,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2027-01-25",
       "code": "sz159928",
       "sector": "消费",
       "horizon": "未来2个月（60天）",
@@ -22320,8 +22446,8 @@
       "base_date": "2026-11-25",
       "horizon_days": 60,
       "eligible_from": "2026-11-26",
-      "start_date": null,
-      "due_date": null,
+      "start_date": "2026-11-26",
+      "due_date": "2027-01-25",
       "code": "sh512800",
       "sector": "银行",
       "horizon": "未来2个月（60天）",
@@ -22338,6 +22464,366 @@
       "base_date": "2026-11-25",
       "horizon_days": 60,
       "eligible_from": "2026-11-26",
+      "start_date": "2026-11-26",
+      "due_date": "2027-01-25",
+      "code": "sh510880",
+      "sector": "红利（策略，不是行业）",
+      "horizon": "未来2个月（60天）",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh512480-7",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 7,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh512480",
+      "sector": "半导体",
+      "horizon": "未来7天",
+      "direction": "underperform",
+      "stance": "相对偏弱，谨慎",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh515880-7",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 7,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh515880",
+      "sector": "通信（含光通信，非纯CPO）",
+      "horizon": "未来7天",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh512010-7",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 7,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh512010",
+      "sector": "医药",
+      "horizon": "未来7天",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh516160-7",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 7,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh516160",
+      "sector": "新能源",
+      "horizon": "未来7天",
+      "direction": "underperform",
+      "stance": "相对偏弱，谨慎",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh512800-7",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 7,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh512800",
+      "sector": "银行",
+      "horizon": "未来7天",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh510880-7",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 7,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh510880",
+      "sector": "红利（策略，不是行业）",
+      "horizon": "未来7天",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh512480-30",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 30,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh512480",
+      "sector": "半导体",
+      "horizon": "未来1个月（30天）",
+      "direction": "underperform",
+      "stance": "相对偏弱，谨慎",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh515880-30",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 30,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh515880",
+      "sector": "通信（含光通信，非纯CPO）",
+      "horizon": "未来1个月（30天）",
+      "direction": "underperform",
+      "stance": "相对偏弱，谨慎",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh512010-30",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 30,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh512010",
+      "sector": "医药",
+      "horizon": "未来1个月（30天）",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh516160-30",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 30,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh516160",
+      "sector": "新能源",
+      "horizon": "未来1个月（30天）",
+      "direction": "underperform",
+      "stance": "相对偏弱，谨慎",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sz159928-30",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 30,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sz159928",
+      "sector": "消费",
+      "horizon": "未来1个月（30天）",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh512800-30",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 30,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh512800",
+      "sector": "银行",
+      "horizon": "未来1个月（30天）",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh510880-30",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 30,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh510880",
+      "sector": "红利（策略，不是行业）",
+      "horizon": "未来1个月（30天）",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh512480-60",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 60,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh512480",
+      "sector": "半导体",
+      "horizon": "未来2个月（60天）",
+      "direction": "underperform",
+      "stance": "相对偏弱，谨慎",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh515880-60",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 60,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh515880",
+      "sector": "通信（含光通信，非纯CPO）",
+      "horizon": "未来2个月（60天）",
+      "direction": "underperform",
+      "stance": "相对偏弱，谨慎",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh512010-60",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 60,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh512010",
+      "sector": "医药",
+      "horizon": "未来2个月（60天）",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh516160-60",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 60,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh516160",
+      "sector": "新能源",
+      "horizon": "未来2个月（60天）",
+      "direction": "underperform",
+      "stance": "相对偏弱，谨慎",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sz159928-60",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 60,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sz159928",
+      "sector": "消费",
+      "horizon": "未来2个月（60天）",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh512800-60",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 60,
+      "eligible_from": "2026-11-27",
+      "start_date": null,
+      "due_date": null,
+      "code": "sh512800",
+      "sector": "银行",
+      "horizon": "未来2个月（60天）",
+      "direction": "outperform",
+      "stance": "相对偏强，观察",
+      "benchmark": "sh510300",
+      "method": "momentum-v2",
+      "evaluation": null
+    },
+    {
+      "id": "2026-11-26-sh510880-60",
+      "report_id": "baseline-20261126-214255-414850",
+      "registered_at": "2026-11-26T21:42:55.414850+08:00",
+      "base_date": "2026-11-26",
+      "horizon_days": 60,
+      "eligible_from": "2026-11-27",
       "start_date": null,
       "due_date": null,
       "code": "sh510880",
@@ -22351,18 +22837,18 @@
     }
   ],
   "stats": {
-    "evaluated": 108,
-    "hits": 45,
-    "accuracy_pct": 41.7,
-    "pending": 351,
+    "evaluated": 122,
+    "hits": 58,
+    "accuracy_pct": 47.5,
+    "pending": 357,
     "by_horizon": {
       "7": {
-        "evaluated": 101,
-        "hits": 38
+        "evaluated": 108,
+        "hits": 44
       },
       "30": {
-        "evaluated": 7,
-        "hits": 7
+        "evaluated": 14,
+        "hits": 14
       },
       "60": {
         "evaluated": 0,
@@ -22370,7 +22856,7 @@
       }
     },
     "due_unavailable": 0,
-    "awaiting_start": 19,
+    "awaiting_start": 20,
     "coverage_pct": 100.0,
     "note": "命中指代理ETF是否相对沪深300跑赢/跑输；不是赚钱概率。准确率仅针对可评估样本，到期缺数据另列；重叠样本不独立，未验证90%。"
   },
